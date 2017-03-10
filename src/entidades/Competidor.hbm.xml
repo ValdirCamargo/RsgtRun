@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 24/02/2017 08:57:36 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entidades.Competidor" table="competidor" catalog="rsgtrun_bd" optimistic-lock="version">
+        <id name="codCompetidor" type="java.lang.Integer">
+            <column name="codCompetidor" />
+            <generator class="identity" />
+        </id>
+        <property name="nome" type="string">
+            <column name="nome" length="45" />
+        </property>
+        <property name="categoria" type="string">
+            <column name="categoria" length="45" />
+        </property>
+        <property name="telefone" type="string">
+            <column name="telefone" length="45" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="45" />
+        </property>
+        <property name="numberPlay" type="string">
+            <column name="number_play" length="45" />
+        </property>
+        <property name="idTag" type="string">
+            <column name="idTag" length="45" />
+        </property>
+        <property name="horario" type="timestamp">
+            <column name="horario" length="19" />
+        </property>
+        <property name="largada" type="time">
+            <column name="largada" length="8" />
+        </property>
+        <property name="chegada" type="time">
+            <column name="chegada" length="8" />
+        </property>
+        <property name="tempoCorrida" type="time">
+            <column name="tempo_corrida" length="8" />
+        </property>
+    </class>
+</hibernate-mapping>

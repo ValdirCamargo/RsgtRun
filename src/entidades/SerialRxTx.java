@@ -62,7 +62,7 @@ public class SerialRxTx implements SerialPortEventListener{
     private OutputStream output;//objeto para escrita na serial
     
     private static final int TIME_OUT = 1000;//Tempo de Espera da  comunicacao
-    private static  int DATA_RATE = 9600;//Velocidade da comunicacao
+    private static  int DATA_RATE = 57600;//Velocidade da comunicacao
     
     public String serialPortName;
     

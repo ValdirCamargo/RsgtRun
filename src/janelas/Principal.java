@@ -222,7 +222,7 @@ public class Principal extends javax.swing.JFrame {
 
         cbCom.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         cbCom.setForeground(new java.awt.Color(51, 51, 51));
-        cbCom.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9" }));
+        cbCom.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9", "COM10" }));
         cbCom.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cbComActionPerformed(evt);
